@@ -2,6 +2,7 @@ require 'active_support'
 require 'duality'
 
 class DualityRails < ActiveSupport::Cache::Store
+  VERSION = "0.0.1pre1"
   include Duality
 
   # Active Support methods:
